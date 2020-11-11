@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>constNelVert ToDo List</title>
+    <link rel="icon" href="img/constNelJhoVert.jpg" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+    crossorigin="anonymous" />
+     <link href="./bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    
+    <link href="style.css" rel="stylesheet">
+    
+
+  </head>
+  <body>
+   <!--  [to do form start] -->
+    <center >
+    <div class="col-md-12 col-lg-9 col-sm-12 col-xl-9 mt-4">
+    <div class="card col-md-9 col-lg-9 col-xl-9 col-sm-12 border-white align-items-stretch mb-4 b" style="background-color: rgb(0, 0, 0);">
+       <h3 class="mb-4 text-center mt-4"><strong style="color: rgb(255, 255, 255);">To Do List</strong></h3> 
+      <div class="row text-center">
+        <div class="col-md-12 align-items-center">
+          <div class="card-body">
+            <div class=" mb-4">
+
+              <form class="todo-form">
+              <input type="text" id ="todo-input" placeholder="Add new Todo List" class="form-control col-xs-11 col-sm-11 col-md-11 col-lg-11 text-center" style="font-family: verdana; font-weight: bold;">
+              <button type="button" class="btn badge-primary" id ="todo-button" onclick="addTodo()">
+              <i class="fas fa-plus-square"></i>
+              </button>
+              </form>
+              <div class="todo-container col-md-11 col-lg-11 col-sm-11 col-xs-11 ">
+              <ul id ="todo-list" class="col-md-11 col-lg-11 col-sm-11 col-xs-11 align-items-stretch" style="font-family: verdana; font-weight: bold;"></ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>
+<!-- [to do form end] -->
+<!--    [ javascript function ] -->
+     <script src="external/jquery/jquery11.js"></script>
+     <script src="external/jquery/jquery.js"></script>
+     <script src="JSfunction.js"></script>
+     <!-- [footer start] -->
+    <div class="footer text-center">
+      <p style="color: rgb(0, 0, 255);">Copyright &copy;<span>Jhonel Vertudazo</span> All rights Reserved 2020</p>
+    </div>
+   <!--  [footer end] -->
+  </body>
+</html>
